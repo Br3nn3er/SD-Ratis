@@ -19,12 +19,20 @@ Vá ate a pasta grpc-java/examples
 
 Abra o terminal e execute o comando: ./gradlew installDist
 
-Execute o servidor com ./build/install/examples/bin/hello-world-server
+Execute o servidor com ./build/install/examples/bin/hello-world-server $param1 $param2
 
-Execute o cliente com ./build/install/examples/bin/hello-world-client
+-> Sendo param1: a porta do grpc
+
+-> Sendo param2: o id do servidor Ratis
+
+Obs: nesse projeto usamos p1,p2 e p3 como id do Ratis
+
+Execute o cliente com ./build/install/examples/bin/hello-world-client $param1
+
+-> Sendo param1: a porta do servidor grpc
 
 
-
+Obs: No menu do cliente a opção '5 - Cliente Teste', é um teste de estresse.
 
 ### Integrantes:
 
