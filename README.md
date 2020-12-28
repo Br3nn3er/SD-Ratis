@@ -1,5 +1,5 @@
 # SD_trab
-Primeiro projeto de sistemas distribuidos
+Segundo projeto de sistemas distribuidos
 
 
 # Requisitos
@@ -16,6 +16,8 @@ Agora vá até a pasta grpc-java/examples/src/main/proto
 Copie e cole o arquivo .proto para essa pasta
 
 Vá ate a pasta grpc-java/examples
+
+Copie e cole os arquivos pom.xml e build.gradle na pasta atual
 
 Abra o terminal e execute o comando: ./gradlew installDist
 
